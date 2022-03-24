@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/wiseboxs/testing/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
